@@ -77,8 +77,8 @@ The main critieria here is:
 There are some specific subtasks given:
 
 * Make use of semantic elements (header, section, figure) instead of divs whenever appropriate (generally sections should be top level, the actual header area should be a header tag, the navigation section should be nav tag)
-* Add in `alt` attributes to your `img` tags
-* Use a title that makes sense but isn't too long
+* Add in `alt` attributes to your `img` tags ✅
+* Use a title that makes sense but isn't too long ✅
 * Your h1 through h6 attributes should be in sequential order. IE if your header is an h2, then don't place an h1 further down in that section. As you scan through the DOM tree, all h1-h6 elements should get smaller in size, not larger.
 * The elements of the page should follow a logical structure. The header should be at the top of the body, the nav after it. The individual sections of the page should be layed from top to bottom after that.
 
