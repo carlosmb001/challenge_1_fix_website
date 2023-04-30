@@ -1,172 +1,35 @@
-# 01 HTML, CSS, and Git: Code Refactor
+Motivation:
+The motivation behind this project was to improve the existing website for Horiseon, a digital marketing agency, and make it more accessible and user-friendly.
 
-## Challenges in This Course
+Objective:
+The main objective of this project was to restructure the existing codebase to meet the latest web accessibility standards, improve the structure of the HTML and CSS, and optimize the code for search engines.
 
-There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
+Problem:
+The original codebase had many issues within its structure, making it difficult understand. There were also accessibility issues, making it challenging for people with disabilities to use the website. The code was not optimized for search engines, affecting Horiseon's online presence.
 
-### Challenge Types 
 
-The two types of Challenges are the following:
+Solution:
+The solution was to restructure the codebase to meet the latest web accessibility standards, make the website more user-friendly, and optimize it for search engines. The HTML code was modified to include semantic elements, making it easier to read and navigate. The CSS was optimized, reducing redundancy. Accessible attributes were also added to images, ensuring that the website was accessible to people with disabilities.
 
-* **On-the-job ticket** or **feature request Challenges** give you starter code in a folder called `Develop`, which you'll modify to complete the Challenge. Odd-numbered modules follow this format.
+Learnings:
+Through this project, I learned the importance of writing clean, well-organized code that meets web accessibility standards. We also learned the significance of optimizing a website for search engines to increase online visibility. 
 
-* **Job-seeking coding assessments** or **take-home assignments** don't provide starter code. You'll build these from scratch. Even-numbered modules follow this format.
+Features:
 
-### Challenge Elements
+-Improved code structure and organization
+-Semantic HTML tags for better accessibility and readability, by removing the div element and separating the code by giving it a header, body, sections, and articles
+-Accessible images with alt text for users with disabilities
+-Optimized CSS for better performance
+-Navigation links added to header for better user experience
+-removed footer from visibility, can always be added in the future
 
-Challenges adhere to a format that's commonly used by software development teams that use **agile project management** to manage their work. Practicing this will prepare you for the workflows you'll experience as a professional full-stack web developer. 
+Challenges:
+One of the main challenges faced during this project was to ensure that the website remained visually appealing while also being optimized for search engines and web accessibility. Also being able to make sure that the code didn't break while changing the html tags to match the CSS sectors.
+Trying to figure out what html elements to use instead if the div tags 
+At first when I created the header tag, I was having a hard time figuring out why the format of the unordered list will break the format. Came to find out that I needed to adjust the CSS sectors to reflect the changes on HTML
 
-> **Deep Dive**: To learn more about agile, read this [Wikipedia article on agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
+Future Implementations:
+In the future, I plan to implement additional features such as a contact form for users to get in touch with Horiseon.
 
-Each Challenge contains the following elements:
-
-* **User Story**: This is a short, simple description of a feature told from the perspective of the person who is requesting the new capability, usually a user or customer of the system. This follows an AS AN / I WANT / SO THAT format. For example, "AS A shopper visiting an online store, I WANT to place items in a shopping cart, SO THAT I can purchase them." 
-
-* **Acceptance Criteria**: These are the requirements that you must meet to satisfy the scope of work. They are not exhaustive, but they do entail the minimum aspects of a working solution. Consider this a checklist of baseline requirements. Acceptance criteria can be presented in various ways. In this case, we'll use a common format called **scenario-oriented criteria** which expresses each requirement in a WHEN / THEN format. Don't worry if this doesn't make sense now; it will become very familiar to you after you complete a couple of Challenges. 
-
-* **Mock-up**: This is an image or animation that demonstrates the design and functionality of the web application that you'll build for the Challenge.
-
-* **Submission**: You'll submit your completed Challenge for review. In the real world, when a developer finishes working on a project, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For each Challenge, your instructional staff will serve as your team of reviewers.
-
-## Your Task
-
-This week is an odd-numbered week, so your Challenge is an on-the-job ticket&mdash;meaning that you'll begin with starter code that you need to modify. 
-
-**Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
-
-> **Important**: When working with someone else's code, you should adhere to the **Scout Rule**&mdash;always leave the code a little cleaner than when you found it.
-
-An increasingly important consideration for businesses, web **accessibility** ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. Accessibility is good for business&mdash;for one thing, accessible sites rank higher in search engines like Google. It also helps companies avoid litigation, which might arise if people with disabilities can't access a website.
-
-Accessibility can include complex requirements, but your tech lead has given you a small list of specific criteria for this project. These criteria are documented in the Acceptance Criteria section.
-
-To impress clients, you should always exceed expectations and improve the codebase for long-term sustainability. For example, check that all links are functioning correctly. You can also increase the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-Are you ready to begin? Here are this week's Challenge requirements.
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Acceptance Criteria Simplified
-
-The main critieria here is:
-
-**The webpage should meet accessibility standards**
-
-There are some specific subtasks given:
-
-* Make use of semantic elements (header, section, figure) instead of divs whenever appropriate (generally sections should be top level, the actual header area should be a header tag, the navigation section should be nav tag)
-* Add in `alt` attributes to your `img` tags ✅
-* Use a title that makes sense but isn't too long ✅
-* Your h1 through h6 attributes should be in sequential order. IE if your header is an h2, then don't place an h1 further down in that section. As you scan through the DOM tree, all h1-h6 elements should get smaller in size, not larger.
-* The elements of the page should follow a logical structure. The header should be at the top of the body, the nav after it. The individual sections of the page should be layed from top to bottom after that.
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
-
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
-
-## Getting Started
-
-Follow these instructions to create your project and deploy it to GitHub Pages:
-
-1. Create a new repository on your GitHub account and clone it to your computer.
-
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
-
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
-
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
-
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
-
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
-
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles mock-up provided in the Challenge instructions (at least 90%).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Link to Deployed Application:
+The updated Horiseon website can be viewed at: 
