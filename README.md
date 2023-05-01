@@ -28,4 +28,4 @@ At first when I created the header tag, I was having a hard time figuring out wh
 
 
 ## Link to Deployed Application:
-The updated Horiseon website can be viewed at: 
+The updated Horiseon website can be viewed at: carlosmb001.github.io/challenge_1_fix_website/
