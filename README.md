@@ -5,7 +5,7 @@ Objective:
 The main objective of this project was to restructure the existing codebase to meet the latest web accessibility standards, improve the structure of the HTML and CSS, and optimize the code for search engines.
 
 Problem:
-The original codebase had many issues within its structure, making it difficult understand. There were also accessibility issues, making it challenging for people with disabilities to use the website. The code was not optimized for search engines, affecting Horiseon's online presence.
+The original codebase had issues within its structure, making it difficult understand. There were also accessibility issues, making it challenging for people with disabilities to use the website. The code was not optimized for search engines, affecting Horiseon's online presence.
 
 
 Solution:
@@ -29,7 +29,7 @@ Trying to figure out what html elements to use instead if the div tags
 At first when I created the header tag, I was having a hard time figuring out why the format of the unordered list will break the format. Came to find out that I needed to adjust the CSS sectors to reflect the changes on HTML
 
 Future Implementations:
-In the future, I plan to implement additional features such as a contact form for users to get in touch with Horiseon.
+In the future, I plan to implement additional features such as a contact form for users to get in touch with Horiseon would be useful to increase buisness engagement for Horiseon 
 
 Link to Deployed Application:
 The updated Horiseon website can be viewed at: 
