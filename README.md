@@ -22,6 +22,9 @@ At first when I created the header tag, I was having a hard time figuring out wh
 * Navigation links added to header for better user experience
 * removed footer from visibility, can always be added in the future
 
+![Horiseon header, clickable link of Search Engine Optimization, Online Reputation Management, Social Media Marketing, photo of people collaborting in office](assets/images/Horiseon%20header.png)
+![Sections of Search Engine Optimization, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness, Cost Management ](assets/images/Horiseon%20sections.png)
+
 ## Credits:
 * Contributed with some other students from class Mo, Athena, and Andy.
 * Original code was provided by the bootcamp.
