@@ -4,17 +4,12 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -22,6 +17,10 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 /* moved up the image and resized it to take up less space*/
 .hero { 
@@ -57,6 +56,10 @@ a { /* Color of the header text */
 
 p { /* paragraph size */
     font-size: 16px;
+}
+.content h2 { /* used the content tag to made all h2 same size, removing extra code */
+    margin-bottom: 20px;
+    font-size: px;
 }
 
 .float-left {
@@ -142,11 +145,6 @@ p { /* paragraph size */
 
 .content img {  /* removed extra code and used the content class to size all images in that section */
     max-height: 200px;
-}
-
-.content h2 { /* used the content tag to made all h2 same size, removing extra code */
-    margin-bottom: 20px;
-    font-size: px;
 }
 
 .footer {
