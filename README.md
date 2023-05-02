@@ -16,7 +16,7 @@ At first when I created the header tag, I was having a hard time figuring out wh
 
 ## Features:
 * Improved code structure and organization
-* Semantic HTML tags for better accessibility and readability, by removing the div element and separating the code by giving it a header, body, sections, and articles
+* Semantic HTML tags for better accessibility and readability, by removing the div element and separating the code by giving it a header, body, sections, and aside
 * Accessible images with alt text for users with disabilities
 * Optimized CSS for better performance
 * Navigation links added to header for better user experience
